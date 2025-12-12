@@ -1,4 +1,7 @@
 # React + Vite
+### Description 
+very simple React project built with Vite to display a list of songs, albums, and artists in a clean layout.
+The project is frontend-only and focuses on basic React components and simple UI rendering.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
