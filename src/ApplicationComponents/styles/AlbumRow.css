@@ -1,0 +1,87 @@
+/* AlbumRow.css */
+
+.album-row-section {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.album-row-container {
+    display: flex;
+    gap: 20px; 
+    overflow-x: auto; 
+    padding-bottom: 10px; 
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+
+.album-card {
+    width: 180px; 
+    flex-shrink: 0; 
+    cursor: pointer;
+    position: relative; 
+    transition: opacity 0.3s;
+}
+
+.album-cover-container {
+    position: relative;
+    width: 100%;
+    padding-top: 100%; 
+    margin-bottom: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.album-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.play-icon-btn {
+    position: absolute;
+    bottom: 10px; 
+    right: 10px;
+    background-color: #00ffaa; 
+    color: #121212;
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    opacity: 0; 
+    transition: opacity 0.3s;
+    
+}
+
+.album-card:hover .play-icon-btn {
+    opacity: 1; 
+}
+
+.album-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.album-artist {
+    font-size: 14px;
+    color: #b3b3b3;
+    margin: 5px 0 0;
+}

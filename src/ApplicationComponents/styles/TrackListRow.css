@@ -1,0 +1,52 @@
+/* TrackListRow.css */
+.track-list-section {
+    margin-bottom: 40px;
+}
+
+.track-list-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 1px;
+    background-color: #1c1c1c; 
+    border-radius: 8px;
+    padding: 10px 0;
+}
+
+.track-item {
+    display: flex; 
+    align-items: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.track-item:hover {
+    background-color: #282828; 
+}
+
+.track-index {
+    color: #b3b3b3;
+    width: 25px; 
+    text-align: center;
+}
+
+.track-details {
+    flex-grow: 1; /* لجعل هذا الجزء يأخذ كل المساحة الفارغة في المنتصف */
+    margin-left: 15px;
+}
+
+.track-title { /* ... */ }
+.track-artist { /* ... */ }
+
+.track-play-btn {
+    background: none;
+    border: none;
+    color: #00ffaa; 
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.track-duration {
+    color: #b3b3b3;
+}

@@ -1,0 +1,35 @@
+.app-header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    padding: 15px 30px;
+    background-color: #121212; 
+    color: white;
+    border-bottom: 1px solid #282828; 
+    width: 100%;
+}
+
+
+.header-search input {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px; 
+    width: 300px;
+    background-color: #282828;
+    color: white;
+    font-size: 16px;
+}
+
+.header-search input::placeholder {
+    color: #b3b3b3;
+}
+
+.user-profile-btn {
+    background-color: #008080; 
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
