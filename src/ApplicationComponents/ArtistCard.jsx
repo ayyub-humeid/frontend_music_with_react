@@ -7,14 +7,14 @@ const ArtistCard = ({ artist }) => {
             
             <div className="artist-image-container">
                 <img 
-                    src={`../public/images/${artist.imageUrl}`} 
+                    
                     alt={artist.name} 
                     className="artist-image" 
                 />
             </div>
             
             <h4 className="artist-name">{artist.name}</h4>
-            <p className="artist-genre">{artist.genre}</p>
+            {/* <p className="artist-genre">{artist.genre}</p> */}
         </div>
     );
 };

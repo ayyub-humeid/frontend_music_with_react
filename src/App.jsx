@@ -4,7 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import HeaderComponent from './ApplicationComponents/HeaderComponent'
 import HeroBanner from './ApplicationComponents/HeroBanner'
-import SuggestedArtistsRow from './ApplicationComponents/ArtistRowComponent';
+// import SuggestedArtistsRow from './ApplicationComponents/ArtistRowComponent';
+import ArtistRowComponent from './ApplicationComponents/ArtistRowComponent';
 import TrendingTracks from './ApplicationComponents/TrackListRow';
 import FeaturedAlbumsRow from './ApplicationComponents/AlbumRowComponent';
 import FooterComponent from './ApplicationComponents/FooterComponent';
@@ -17,7 +18,7 @@ function App() {
     <HeroBanner/>
     <FeaturedAlbumsRow />
     <TrendingTracks />
-    <SuggestedArtistsRow />
+    <ArtistRowComponent />
     <FooterComponent />
     
     </>
